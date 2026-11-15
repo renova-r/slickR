@@ -1,39 +1,18 @@
-<!-- badges: start -->
-[![CRAN\_Status\_Badge](https://www.r-pkg.org/badges/version/slickR)](https://cran.r-project.org/package=slickR)
-[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/0.1.0/active.svg)](https://www.repostatus.org/) 
-[![downloads](https://cranlogs.r-pkg.org/badges/slickR)](https://cranlogs.r-pkg.org/badges/slickR)
-[![R-win build status](https://github.com/yonicd/slickR/workflows/R-check/badge.svg)](https://github.com/yonicd/slickR)
-[![Codecov test coverage](https://codecov.io/gh/yonicd/slickR/branch/master/graph/badge.svg)](https://app.codecov.io/gh/yonicd/slickR?branch=master)
-[![Covrpage Summary](https://img.shields.io/badge/covrpage-Last_Build_2022_12_19-brightgreen.svg)](http://tinyurl.com/tbqmb47)
-<!-- badges: end -->
+# slickR
 
-# slickR <img src="https://github.com/yonicd/slickR/raw/master/man/figures/logo.png" align="right"  class="logo"/>
+Creates and customizes interactive carousels of plots, images, iframes, videos and htmlwidgets using the Slick JavaScript library.
 
-__The last carousel you’ll ever need__
+Compatibility updates by Renova.
 
-We are happy to bring the [slick](http://kenwheeler.github.io/slick/) JavaScript library to R. It is self described as "the last carousel you'll ever need". This carousel is based on putting the elements of the carousel in a [div](https://www.w3schools.com/tags/tag_div.asp) HTML tag. This makes the carousel very versatile in what can be placed inside. Regular objects that are placed in a carousel can be for example: images, plots, tables, gifs, videos and objects embedded in iframes.
+Version 0.6.0.9001: Removed the Date field from DESCRIPTION and escaped braces in the URL shown in man/nba_team_logo.Rd so the template placeholder renders literally.
 
-![](https://raw.githubusercontent.com/yonicd/slickR/multimedia/Multimedia/slickRnestingWidgets.gif)
+## Install
 
-This tool helps review multiple outputs in an efficient manner and saves much needed space in documents and Shiny applications, while creating a user friendly experience.
-
-These carousels can be used directly from the R console, from RStudio, in Shiny apps and R Markdown documents.
-
-### Installation
-[CRAN](https://cran.r-project.org/package=slickR)
 ```r
-install.packages('slickR')
+install.packages("remotes")
+remotes::install_github("renova-r/slickR@renova-0.6.0.9001")
 ```
 
-[Github](https://github.com/yonicd/slickR) (dev)
-```r
-remotes::install_github('yonicd/slickR')
-```
+[Release notes](NEWS.md) · [Renova package directory](https://github.com/renova-r/revival-catalog)
 
-### Getting started
-- [slickR Basics](https://cran.r-project.org/package=slickR/vignettes/basics.html)
-- [slickR with DOMs](https://cran.r-project.org/package=slickR/vignettes/doms.html)
-- [slickR with Iframes](https://cran.r-project.org/package=slickR/vignettes/iframes.html)
-- [slickR with PDFs](https://cran.r-project.org/package=slickR/vignettes/pdfs.html)
-- [slickR with Plots](https://cran.r-project.org/package=slickR/vignettes/plots.html)
-- [slickR with Shiny](https://cran.r-project.org/package=slickR/vignettes/shiny.html)
+Originally authored and maintained by Jonathan Sidi. Original project: <https://github.com/yonicd/slickR>. License: MIT + file LICENSE. See [LICENSE](LICENSE). Full license text: [LICENSE.md](LICENSE.md).
